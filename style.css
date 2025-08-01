@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+/* nav start */
+header nav {
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px -7px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img {
+    width: 100px;
+
+}
+
+nav .links a{
+    color: #1a2930;
+    font-weight: 600;
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.links :nth-child(2) {
+    background-color: #6674cc;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 5px;
+
+}
+.links :nth-child(4) img {
+    width: 10px;
+
+}
+
+.links :nth-child(6) {
+    border: 2px solid #6674cc ;
+    color: #6674cc;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+/* nav end */
+main {
+    width: 100%;
+}
+.main {
+    width: 100%;
+    height: 35em;
+    background:linear-gradient(to right  , white , rgb(170, 170, 231));
+}
+
+.comunity {
+    width: 100%;
+    height: 15em;
+    background-color: blue;
+}
+
+.lcontent button {
+    width: 72%;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    
+}
+.lcontent .box {
+    margin: 10px 0px;
+}
+
+.rightbox img {
+    width: 50%;
+    border-radius: 50% 50% 0 0;
+    border: 1px solid blue;
+}
